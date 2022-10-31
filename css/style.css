@@ -15,136 +15,195 @@ body {
    color: var(--primari-text-color);
    font-family: Roboto, sans-serif;
    letter-spacing: 0.03em;
-      }
+   }
       
-         ul {
-         list-style: none;
-      }
-      a {
-         text-decoration: none;
-         text-style: normal;
-      }
-   .logo {
- color: var(--accent-color);
- font-family: Raleway, sans-serif;
-font-weight: 700;
+ul {
+   list-style: none;
+   }
+.logo {
+   color: var(--accent-color);
+   font-family: Raleway, sans-serif;
+   font-weight: 700;
    font-size: 26px;
    line-height: 1.19;
+   text-decoration: none;
    }
-   .studio {
-color: #000000;
-font-family: Oleo Script, sans-serif;
-      }
-   .nav { }
-      .nav-link {
-         color: #212121;
-         font-weight: 500;
-         font-size: 14px;
-         line-height: 1.14px;
-         letter-spacing: 0.02em;
+.studio {
+   color: #000000;
+   font-family: Raleway, sans-serif;
+   font-weight: 700;
+   font-size: 26px;
+   line-height: 1.19;
+   text-decoration: none;
    }
-   .current {
-      color: var(--accent-color);
+   /* }\Навігація */
+.nav a { 
+   text-decoration: none;
    }
-   .contacts a {
-      color: #757575;
+.nav-link {
+   color: #212121;
    font-weight: 500;
    font-size: 14px;
    line-height: 1.14px;
    letter-spacing: 0.02em;
    }
-   .contacts a:hover,
-   .contacts a:focus {
-      color: var(--accent-color);
+.current {
+   color: var(--accent-color);
    }
-   .header {
-
+   .contacts a {
+   color: #757575;
+   font-weight: 500;
+   font-size: 14px;
+   line-height: 1.14px;
+   letter-spacing: 0.02em;
+   text-decoration: none;
    }
-   .hero {
-background: #2F303A;
+.contacts a:hover,
+.contacts a:focus {
+   color: var(--accent-color);
    }
-   .hero-title {
-color: #FFFFFF;
-      font-weight: 900;
-         font-size: 44px;
-         line-height: 1.36;
-         text-align: center;
-         letter-spacing: 0.06em;
-         text-transform: uppercase;
+   /* Херой */
+.hero {
+   background: #2F303A;
    }
-   .hero-button {
-      color: var(--primary-white-color);
-      background-color: #2196F3;
-      font-weight: 700;
-         font-size: 16px;
-         line-height: 1.87;            
-         display: flex;
-         align-items: center;
-         text-align: center;
-         letter-spacing: 0.06em;
+.hero-title {
+   color: #FFFFFF;
+   font-weight: 900;
+   font-size: 44px;
+   line-height: 1.36;
+   text-align: center;
+   letter-spacing: 0.06em;
+   text-transform: uppercase;
    }
-   .features {}
-   .features-list h3 {
-      color: var(--title-text-color);
-         font-weight: 700;
-         font-size: 14px;
-         line-height: 16px;
-         text-transform: uppercase;
+.hero-button {
+   color: var(--primary-white-color);
+   background-color: #2196F3;
+   font-weight: 700;
+   font-size: 16px;
+   line-height: 1.87;            
+   display: flex;
+   align-items: center;
+   text-align: center;
+   letter-spacing: 0.06em;
+   cursor: pointer;
+   border: 0;
+   margin: 0 auto;
+   display: block;
    }
-   .features-list p {
-      font-size: 14px;
-      line-height: 1.71;
+   /* Фічі */
+.features-list h3 {
+   color: var(--title-text-color);
+   font-weight: 700;
+   font-size: 14px;
+   line-height: 16px;
+   text-transform: uppercase;
    }
-   .activities-title {
-      color: var(--title-text-color);
-      font-weight: 700;
-         font-size: 36px;
-         line-height: 1.17;
-         text-align: center;
+.features-list p {
+   font-size: 14px;
+   line-height: 1.71;
    }
-   .activities-list > li {
-      text-align: center;
+   /* Чим ми займаємось */
+.activities-title {
+   color: var(--title-text-color);
+   font-weight: 700;
+   font-size: 36px;
+   line-height: 1.17;
+   text-align: center;
    }
-   .team-title {
-      color: var(--title-text-color);
-      font-weight: 700;
-         font-size: 36px;
-         line-height: 1.17;
-         text-align: center;
+.activities-list > li {
+   text-align: center;
    }
-   .team li {
-            text-align: center;
+   /* Команда */
+   .team {
+      background-color: #F5F4FA;
    }
-   .team h3 {
-      color: var(--title-text-color);
-      font-weight: 500;
-         font-size: 16px;
-         line-height: 1.19;    
-         text-align: center;
+.team-title {
+   color: var(--title-text-color);
+   font-weight: 700;
+   font-size: 36px;
+   line-height: 1.17;
+   text-align: center;
    }
-   .team p {
-      font-size: 16px;
-         line-height: 1,19;      
-         text-align: center;
+.team li {
+   text-align: center;
    }
-   .footer {
-      background-color: #2F303A;
+.team h3 {
+   color: var(--title-text-color);
+   font-weight: 500;
+   font-size: 16px;
+   line-height: 1.19;    
+   text-align: center;
    }
-   .studio-footer {
-      color: #FFFFFF;
+.team p {
+   font-size: 16px;
+   line-height: 1,19;      
+   text-align: center;
    }
-   .address-map {
-      color: var(--primary-white-color);
-      font-size: 14px;
-         line-height: 1.71;
+   /* Футер */
+.footer {
+   background-color: #2F303A;
    }
-   .address-mail, .address-tel {
-      color: rgba(255, 255, 255, 0.6);
-      font-size: 14px;
-         line-height: 1.71;
+.studio-footer {
+   color: #FFFFFF;
+   text-decoration: none;
    }
-   .address-mail:hover, .address-mail:focus (
+.address-map {
+   color: var(--primary-white-color);
+   font-size: 14px;
+   line-height: 1.71;
+   text-decoration: none;
+   font-style: normal;
+   }
+.address-footer
+            {
+   color: rgba(255, 255, 255, 0.6);
+   font-size: 14px;
+   line-height: 1.71;
+   text-decoration: none;
+   font-style: normal;
+   }
+.address-footer:hover, .address-footer:focus {
+   color: var(--accent-color);
+   }
       
-   )
-
-
+/* Портфоліо */
+/* Прихований заголовок */
+.hidden-title {
+   font-weight: 500;
+   font-size: 36px;
+   line-height: 1.17;
+   text-align: center;
+   }
+   /* Проекти */
+.projects-filter{
+   color: #212121;
+   font-weight: 500;
+   font-size: 16px;
+   line-height: 1.62;   
+   text-align: center;
+   background-color: F5F4FA;
+   }
+.projects-filter button:hover, .projects-filter button:focus {
+   background-color: var(--accent-color);
+   color: var(--primary-white-color);
+   border: 0;
+   cursor: pointer;
+   }
+.projects-list > li {
+   text-align: center;
+   }
+.projects-list a {
+   text-decoration: none;
+   }
+.projects-list h3 {
+   color: var(--title-text-color);
+   font-weight: 700;
+   font-size: 18px;
+   line-height: 2;
+   letter-spacing: 0.06em;
+   }
+.projects-list {
+   color: var(--primari-text-color);
+   font-size: 16px;
+   line-height: 1.87;
+}

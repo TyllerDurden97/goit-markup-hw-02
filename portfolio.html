@@ -6,39 +6,44 @@
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <title>WebStudio</title>
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet">
+   <link rel="stylesheet" href="./css/style.css">
 </head>
 
 <body>
-   <header>
-      <!--Лого-->
-      <a href="#">WebStudio</a>
+   <header class="header">
+      <a href="./index.html" class="logo">Web<span class="studio">Studio</span></a>
       <nav>
-         <ul>
-            <li><a href="#">Студія</a></li>
-            <li><a href="#">Портфоліо</a></li>
-            <li><a href="#">Контакти</a></li>
+         <ul class="nav">
+            <li><a href="./index.html" class="nav-link">Студія</a></li>
+            <li><a href="./portfolio.html" class="nav-link current">Портфоліо</a></li>
+            <li><a href="./contacts.html" class="nav-link">Контакти</a></li>
          </ul>
       </nav>
-      <ul>
+      <ul class="contacts">
          <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
          <li><a href="tel:+380961111111">+38 096 111 11 11</a></li>
       </ul>
    </header>
    <main>
       <!-- Прихований заголовок Н1 -->
-      <h1>Наші проекти</h1>
+      <h1 class="hidden-title">Наші проекти</h1>
       <section class="projects">
          <!-- Прихований заголовок Н2 -->
-         <h2>Види проєктів</h2>
+         <h2 class="hidden-title">Види проєктів</h2>
          <ul class="projects-filter">
-            <li><button type="button">Усі</button></li>
-            <li><button type="button">Веб-сайти</button></li>
-            <li><button type="button">Додатки</button></li>
-            <li><button type="button">Дизайн</button></li>
-            <li><button type="button">Маркетинг</button></li>
+            <li><button type="button"class="button" >Усі</button></li>
+            <li><button type="button"class="button" >Веб-сайти</button></li>
+            <li><button type="button"class="button" >Додатки</button></li>
+            <li><button type="button"class="button" >Дизайн</button></li>
+            <li><button type="button"class="button" >Маркетинг</button></li>
          </ul>
          
-          <ul>
+          <ul class="projects-list">
                <li>
                   <a href="#">
                   <img src="./images/technokryak.jpg" alt="Веб-сайт">
@@ -104,13 +109,13 @@
                </li>
             </ul>
          </section>
-         <footer>
-            <a href="#">WebStudio</a>
-            <address class="">
+         <footer class="footer">
+            <a href="#" class="logo">Web<span class="studio-footer">Studio</span></a>
+            <address class="address">
                <ul>
-                  <li><a href="#">м. Київ, пр-т Лесі Українки, 26</a></li>
-                  <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-                  <li><a href="tel:+380961111111">+38 096 111 11 11</a></li>
+                  <li><a href="#" class="address-map">м. Київ, пр-т Лесі Українки, 26</a></li>
+                  <li><a href="mailto:info@devstudio.com" class="address-footer">info@devstudio.com</a></li>
+                  <li><a href="tel:+380961111111" class="address-footer">+38 096 111 11 11</a></li>
                </ul>
             </address>
          </footer>
