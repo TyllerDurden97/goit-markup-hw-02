@@ -6,12 +6,14 @@
 /* Колір фону другорядний #F5F4FA */
 :root {
    --primari-text-color: #757575;
-   --title-text-color: #212121;
+   --secondary-text-color: #212121;
    --accent-color: #2196F3;
    --primary-white-color: #FFFFFF;
+   --primary-background-color:#F5F5F5;
+   --secondary-background-color: #F5F4FA;
    }
 body {
-   background-color: #F5F5F5;
+   background-color: var(--primary-background-color);
    color: var(--primari-text-color);
    font-family: Roboto, sans-serif;
    letter-spacing: 0.03em;
@@ -41,7 +43,7 @@ ul {
    text-decoration: none;
    }
 .nav-link {
-   color: #212121;
+   color: var(--secondary-text-color);
    font-weight: 500;
    font-size: 14px;
    line-height: 1.14px;
@@ -51,7 +53,7 @@ ul {
    color: var(--accent-color);
    }
    .contacts a {
-   color: #757575;
+   color: var(--primari-text-color);
    font-weight: 500;
    font-size: 14px;
    line-height: 1.14px;
@@ -67,7 +69,7 @@ ul {
    background: #2F303A;
    }
 .hero-title {
-   color: #FFFFFF;
+   color: var(--primary-white-color);
    font-weight: 900;
    font-size: 44px;
    line-height: 1.36;
@@ -76,8 +78,8 @@ ul {
    text-transform: uppercase;
    }
 .hero-button {
-   color: var(--primary-white-color);
-   background-color: #2196F3;
+   color: var(--secondary-text-color);
+   background-color: var(--accent-color);
    font-weight: 700;
    font-size: 16px;
    line-height: 1.87;            
@@ -92,7 +94,7 @@ ul {
    }
    /* Фічі */
 .features-list h3 {
-   color: var(--title-text-color);
+   color: var(--secondary-text-color);
    font-weight: 700;
    font-size: 14px;
    line-height: 16px;
@@ -104,7 +106,7 @@ ul {
    }
    /* Чим ми займаємось */
 .activities-title {
-   color: var(--title-text-color);
+   color: var(--secondary-text-color);
    font-weight: 700;
    font-size: 36px;
    line-height: 1.17;
@@ -115,10 +117,10 @@ ul {
    }
    /* Команда */
    .team {
-      background-color: #F5F4FA;
+      background-color: var(--secondary-background-color);
    }
 .team-title {
-   color: var(--title-text-color);
+   color: var(--secondary-text-color);
    font-weight: 700;
    font-size: 36px;
    line-height: 1.17;
@@ -128,7 +130,7 @@ ul {
    text-align: center;
    }
 .team h3 {
-   color: var(--title-text-color);
+   color: var(--secondary-text-color);
    font-weight: 500;
    font-size: 16px;
    line-height: 1.19;    
@@ -144,7 +146,7 @@ ul {
    background-color: #2F303A;
    }
 .studio-footer {
-   color: #FFFFFF;
+   color: var(--primary-white-color);
    text-decoration: none;
    }
 .address-map {
@@ -175,12 +177,12 @@ ul {
    }
    /* Проекти */
 .projects-filter {
-   color: #212121;
+   color: var(--secondary-text-color);
    font-weight: 500;
    font-size: 16px;
    line-height: 1.62;   
    text-align: center;
-   background-color: F5F4FA;
+   background-color: var(--secondary-background-color);
    }
 .projects-filter button:hover, .projects-filter button:focus {
    background-color: var(--accent-color);
@@ -195,13 +197,13 @@ ul {
    text-decoration: none;
    }
 .projects-list h3 {
-   color: var(--title-text-color);
+   color: var(--secondary-text-color);
    font-weight: 700;
    font-size: 18px;
    line-height: 2;
    letter-spacing: 0.06em;
    }
-.projects-list {
+.projects-list p {
    color: var(--primari-text-color);
    font-size: 16px;
    line-height: 1.87;
